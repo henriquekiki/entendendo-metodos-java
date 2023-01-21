@@ -13,7 +13,7 @@ public class Mensagem {
             case 2:
             case 3:
             case 4:
-                System.out.println("Boa noite!");
+                mensagemBoaNoite();
                 break;
             
             case 5:
@@ -24,7 +24,7 @@ public class Mensagem {
             case 10:
             case 11:
             case 12:
-                System.out.println("Bom dia!");
+                mensagemBomDia();
                 break;
             
             case 13:
@@ -33,11 +33,31 @@ public class Mensagem {
             case 16:
             case 17:
             case 18:
-                System.out.println("Boa tarde!");
+                mensagemBoaTarde();;
                 break;
             
             default:
-                System.out.println("Hora inválida.\nDigite uma hora entre 00 e 23");
+                mensagemErro();
         }
+        
+    }
+
+    public static void mensagemBomDia() {
+        System.out.println("Bom dia!");
+        
+    }
+
+    public static void mensagemBoaTarde() {
+        System.out.println("Boa Tarde!");
+        
+    }
+
+    public static void mensagemBoaNoite() {
+        System.out.println("Boa noite!");
+        
+    }
+
+    public static void mensagemErro() {
+        System.out.println("Hora inválida.\nDigite uma hora entre 00 e 23");
     }
 }
