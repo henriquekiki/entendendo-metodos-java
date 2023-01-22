@@ -1,3 +1,5 @@
+import javax.xml.transform.Source;
+
 public class Main {
     public static void main(String[] args) {
          
@@ -21,9 +23,23 @@ public class Main {
         Emprestimo.calcular(1000, 3);
 
         System.out.println("\nExercicio quadrilatero.");
-        Quadrilatero.area(6, 6, 6);
         Quadrilatero.area(6);
-        Quadrilatero.area(6, 6);
-        Quadrilatero.area(6, 6);
+        Quadrilatero.area(6d, 6d);
+        Quadrilatero.area(6, 6, 6);
+        Quadrilatero.area(6f, 6f);
+
+        System.out.println("\nExercicios quadrilatero retorno.");
+        double areaQuadrado = Retorno.area(6);
+        System.out.println("\nÁrea do quadrado: " + areaQuadrado);
+
+        double areaRetangulo = Retorno.area(6, 6);
+        System.out.println("Área do retãngulo: "+ areaRetangulo);
+
+        double areaTrapezio = Retorno.area(0, 6, 6);
+        System.out.println("Área do Trapézio: " + areaTrapezio);
+        
+
+
+        
     }
 }

@@ -5,7 +5,7 @@ public class Calculadora {
         
         double resultado = numero1 + numero2;
 
-        String message = String.format("\nA soma de %s + %s é %s.", numero1, numero2, resultado);
+        String message = String.format("A soma de %s + %s é %s.", numero1, numero2, resultado);
         System.out.println(message); 
     }
     
@@ -14,7 +14,7 @@ public class Calculadora {
         
         double resultado = numero1 - numero2;
 
-        String message = String.format("\nA subtração de %s - %s é %s.", numero1, numero2, resultado);
+        String message = String.format("A subtração de %s - %s é %s.", numero1, numero2, resultado);
         System.out.println(message);
     }
 
@@ -22,7 +22,7 @@ public class Calculadora {
         
         double resultado = numero1 * numero2;
         
-        String message = String.format("\nA multiplicação de %s X %s é %s.", numero1, numero2, resultado);
+        String message = String.format("A multiplicação de %s X %s é %s.", numero1, numero2, resultado);
         System.out.println(message);
     }
 
@@ -30,7 +30,7 @@ public class Calculadora {
         
         double resultado = numero1 / numero2;
         
-        String message = String.format("\nA divisão de %s / %s é %s.", numero1, numero2, resultado);
+        String message = String.format("A divisão de %s / %s é %s.", numero1, numero2, resultado);
         System.out.println(message);
     }
 
